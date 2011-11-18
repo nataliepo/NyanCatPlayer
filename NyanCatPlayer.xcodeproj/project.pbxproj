@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96400E851476B80E000BA226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96400E841476B80E000BA226 /* UIKit.framework */; };
+		96400E871476B80E000BA226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96400E861476B80E000BA226 /* Foundation.framework */; };
+		96400E891476B80E000BA226 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96400E881476B80E000BA226 /* CoreGraphics.framework */; };
+		96400E8F1476B80E000BA226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96400E8D1476B80E000BA226 /* InfoPlist.strings */; };
+		96400E911476B80E000BA226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96400E901476B80E000BA226 /* main.m */; };
+		96400E951476B80E000BA226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96400E941476B80E000BA226 /* AppDelegate.m */; };
+		96400E9D1476B843000BA226 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96400E9C1476B843000BA226 /* MainViewController.m */; };
+		96400E9F1476BD44000BA226 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96400E9E1476BD44000BA226 /* MediaPlayer.framework */; };
+		96400EB21476F81E000BA226 /* 65174361.mov in Resources */ = {isa = PBXBuildFile; fileRef = 96400EB11476F81E000BA226 /* 65174361.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96400E801476B80E000BA226 /* NyanCatPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanCatPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96400E841476B80E000BA226 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96400E861476B80E000BA226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96400E881476B80E000BA226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96400E8C1476B80E000BA226 /* NyanCatPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NyanCatPlayer-Info.plist"; sourceTree = "<group>"; };
+		96400E8E1476B80E000BA226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96400E901476B80E000BA226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96400E921476B80E000BA226 /* NyanCatPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NyanCatPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		96400E931476B80E000BA226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96400E941476B80E000BA226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96400E9B1476B843000BA226 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		96400E9C1476B843000BA226 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		96400E9E1476BD44000BA226 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		96400EB11476F81E000BA226 /* 65174361.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 65174361.mov; path = ../../paperAlphaFive/65174361.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96400E7D1476B80E000BA226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96400E9F1476BD44000BA226 /* MediaPlayer.framework in Frameworks */,
+				96400E851476B80E000BA226 /* UIKit.framework in Frameworks */,
+				96400E871476B80E000BA226 /* Foundation.framework in Frameworks */,
+				96400E891476B80E000BA226 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96400E751476B80E000BA226 = {
+			isa = PBXGroup;
+			children = (
+				96400E9E1476BD44000BA226 /* MediaPlayer.framework */,
+				96400E8A1476B80E000BA226 /* NyanCatPlayer */,
+				96400E831476B80E000BA226 /* Frameworks */,
+				96400E811476B80E000BA226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96400E811476B80E000BA226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96400E801476B80E000BA226 /* NyanCatPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96400E831476B80E000BA226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96400E841476B80E000BA226 /* UIKit.framework */,
+				96400E861476B80E000BA226 /* Foundation.framework */,
+				96400E881476B80E000BA226 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96400E8A1476B80E000BA226 /* NyanCatPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				96400E931476B80E000BA226 /* AppDelegate.h */,
+				96400E941476B80E000BA226 /* AppDelegate.m */,
+				96400E9B1476B843000BA226 /* MainViewController.h */,
+				96400E9C1476B843000BA226 /* MainViewController.m */,
+				96400EB11476F81E000BA226 /* 65174361.mov */,
+				96400E8B1476B80E000BA226 /* Supporting Files */,
+			);
+			path = NyanCatPlayer;
+			sourceTree = "<group>";
+		};
+		96400E8B1476B80E000BA226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96400E8C1476B80E000BA226 /* NyanCatPlayer-Info.plist */,
+				96400E8D1476B80E000BA226 /* InfoPlist.strings */,
+				96400E901476B80E000BA226 /* main.m */,
+				96400E921476B80E000BA226 /* NyanCatPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96400E7F1476B80E000BA226 /* NyanCatPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96400E981476B80E000BA226 /* Build configuration list for PBXNativeTarget "NyanCatPlayer" */;
+			buildPhases = (
+				96400E7C1476B80E000BA226 /* Sources */,
+				96400E7D1476B80E000BA226 /* Frameworks */,
+				96400E7E1476B80E000BA226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NyanCatPlayer;
+			productName = NyanCatPlayer;
+			productReference = 96400E801476B80E000BA226 /* NyanCatPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96400E771476B80E000BA226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Auburn & Ivory";
+			};
+			buildConfigurationList = 96400E7A1476B80E000BA226 /* Build configuration list for PBXProject "NyanCatPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96400E751476B80E000BA226;
+			productRefGroup = 96400E811476B80E000BA226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96400E7F1476B80E000BA226 /* NyanCatPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96400E7E1476B80E000BA226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96400E8F1476B80E000BA226 /* InfoPlist.strings in Resources */,
+				96400EB21476F81E000BA226 /* 65174361.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96400E7C1476B80E000BA226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96400E911476B80E000BA226 /* main.m in Sources */,
+				96400E951476B80E000BA226 /* AppDelegate.m in Sources */,
+				96400E9D1476B843000BA226 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96400E8D1476B80E000BA226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96400E8E1476B80E000BA226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96400E961476B80E000BA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		96400E971476B80E000BA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96400E991476B80E000BA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NyanCatPlayer/NyanCatPlayer-Prefix.pch";
+				INFOPLIST_FILE = "NyanCatPlayer/NyanCatPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96400E9A1476B80E000BA226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NyanCatPlayer/NyanCatPlayer-Prefix.pch";
+				INFOPLIST_FILE = "NyanCatPlayer/NyanCatPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96400E7A1476B80E000BA226 /* Build configuration list for PBXProject "NyanCatPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96400E961476B80E000BA226 /* Debug */,
+				96400E971476B80E000BA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96400E981476B80E000BA226 /* Build configuration list for PBXNativeTarget "NyanCatPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96400E991476B80E000BA226 /* Debug */,
+				96400E9A1476B80E000BA226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96400E771476B80E000BA226 /* Project object */;
+}
